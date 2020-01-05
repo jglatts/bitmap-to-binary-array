@@ -1,5 +1,11 @@
- /**
- *  Java Program to convert a binary image into a binary array
+/**
+ *  ___                   ___    ___                    _               
+ * | o )()||  _ _  _  _  |_ _|  | o )()  _  _   ___    / \  _  _  _ __  
+ * | o \||| ]/ \ \/o\/o\  | /o\ | o \|||/ \/o\ /_\ V7 | o |/_|/_|/o\\ V7
+ * |___/L|L|L_n_n|\_,]_/  |_\_/ |___/L|L_n|\_,]L| )/  |_n_|L| L| \_,])/ 
+ *                   L|                          //                 //                                           
+ * 
+ *  Java Program to convert a Bitmap image into a Binary Array
  *  Used to display images on LCD screens, etc..
  * 
  *  @author: John G.
@@ -20,7 +26,7 @@ public class Bmp {
         PrintStream outPut = new PrintStream(new File(f));
         while (img.hasNextLine()) 
             writeBinaryFile(img.nextLine(), outPut);
-        System.out.println("The Binary Array is saved at: " + f);
+        System.out.println("\n\nThe Binary Array is saved at: " + f);
     }
     
     public static String getFileName() {
