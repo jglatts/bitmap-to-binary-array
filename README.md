@@ -1,5 +1,5 @@
 # BitMapToBinArray
-Java program to convert a bitmap image to binary array. 
+Convert bitmap image to binnary array to display on LCDs
 
 ## Java Files
   - A java program to convert a binary image to a binary array.
